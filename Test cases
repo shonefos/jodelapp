@@ -1,0 +1,45 @@
+Which are the most important features to test?
+
+--Postitive test cases--
+
+1. Launching the application 
+a) finding (Playstore) and installing Jodel app
+b) Tap on icon to launching app
+
+2. Checking tabs and content
+a) Go to all tabs and check if all displayed (Newest, MOst commented, Loudest)
+b) Check if there is content in my karma tab (My Jodel, My Replies, My Votes, My pins, Notificatios< more)
+
+
+- Checking the location
+a) Make sure the location is displayed correctly 
+b) Does the city's name match the location
+
+-  Writing new message
+a) Check the ability to write a chat message
+b) Make sure that the message written appears as the first on the Newest page
+
+
+- Voting
+
+a) Make sure it's possible to vote
+b) Check if your voice is entered into the counter
+
+- UI test
+a) Test app on diferent mobile devices to be sure that everything works properly on different size.
+
+-- Negative test cases--
+
+- Try to launch app without internet connection
+- Disconnect internet during app usage
+- Try app with different speed of internet
+- Turn off location before and during the app usage
+
+For all negative cases, the expected result must be appropriate messages
+
+
+How would you define a problematic release and which aspects would you focus on to avoid it?
+
+- In my experience after fix existing bugs, the problematic release of app need to be covered with regression test to make sure the required functionality off app is covered.
+
+
